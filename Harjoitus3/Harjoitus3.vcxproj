@@ -11,9 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{2B7C5254-F2B3-4940-BABC-BA3CD2E08C48}</ProjectGuid>
-    <RootNamespace>Harjoitus2</RootNamespace>
-    <ProjectName>Harjoitus2</ProjectName>
+    <ProjectGuid>{1ECFAB6F-936E-4CE3-AB7A-99DE0C822B4B}</ProjectGuid>
+    <RootNamespace>Harjoitus3</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -48,7 +47,6 @@
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
