@@ -12,7 +12,7 @@ int main()
 		printf("Anna 2. luku: ");
 		scanf_s("%d", &luku2);
 
-	} while (luku1 <= 0 || luku2 <= 0);
+	} while (luku1 <= 0 || luku2 <= 0 || luku1 == luku2);
 
 	int suurempi = 0;
 	int pienempi = 0;
