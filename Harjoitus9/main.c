@@ -22,7 +22,7 @@ int main()
 		suurempi = luku1;
 		pienempi = luku2;
 	}
-	else
+	else if (luku2 > luku1)
 	{
 		suurempi = luku2;
 		pienempi = luku1;
