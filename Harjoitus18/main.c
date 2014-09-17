@@ -4,8 +4,11 @@ int main()
 {
 	int kertoja = 0, kertotaulu = 1, syote = 0, oikein = 0;
 
-	printf("Anna kertoja, niin kyselen sen kertotaulun. He.\n");
-	scanf_s("%d", &kertoja);
+	printf("Anna kertoja (1-10), niin kyselen sen kertotaulun. He.\n");
+	do
+	{ 
+		scanf_s("%d", &kertoja);
+	} while (kertoja < 1 || kertoja > 10);
 
 	while (kertotaulu <= 10)
 	{
