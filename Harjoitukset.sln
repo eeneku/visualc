@@ -37,6 +37,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Harjoitus16", "Harjoitus16\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Harjoitus17", "Harjoitus17\Harjoitus17.vcxproj", "{82E42E94-23C2-4290-9A5D-A472F79FCF89}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Harjoitus18", "Harjoitus18\Harjoitus18.vcxproj", "{88F17F7E-38CC-459E-940D-0CD100A5401E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -111,6 +113,10 @@ Global
 		{82E42E94-23C2-4290-9A5D-A472F79FCF89}.Debug|Win32.Build.0 = Debug|Win32
 		{82E42E94-23C2-4290-9A5D-A472F79FCF89}.Release|Win32.ActiveCfg = Release|Win32
 		{82E42E94-23C2-4290-9A5D-A472F79FCF89}.Release|Win32.Build.0 = Release|Win32
+		{88F17F7E-38CC-459E-940D-0CD100A5401E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{88F17F7E-38CC-459E-940D-0CD100A5401E}.Debug|Win32.Build.0 = Debug|Win32
+		{88F17F7E-38CC-459E-940D-0CD100A5401E}.Release|Win32.ActiveCfg = Release|Win32
+		{88F17F7E-38CC-459E-940D-0CD100A5401E}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
