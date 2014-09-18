@@ -43,6 +43,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Harjoitus19", "Harjoitus19\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Harjoitus20", "Harjoitus20\Harjoitus20.vcxproj", "{74C44B23-952F-41D9-A147-BDEA1950D71E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Harjoitus21", "Harjoitus21\Harjoitus21.vcxproj", "{81134FFA-A141-44D8-9FD1-CBCF68A03E8C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Harjoitus22", "Harjoitus22\Harjoitus22.vcxproj", "{5244A908-825F-4001-9CF0-B4384E848D8D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -129,6 +133,14 @@ Global
 		{74C44B23-952F-41D9-A147-BDEA1950D71E}.Debug|Win32.Build.0 = Debug|Win32
 		{74C44B23-952F-41D9-A147-BDEA1950D71E}.Release|Win32.ActiveCfg = Release|Win32
 		{74C44B23-952F-41D9-A147-BDEA1950D71E}.Release|Win32.Build.0 = Release|Win32
+		{81134FFA-A141-44D8-9FD1-CBCF68A03E8C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{81134FFA-A141-44D8-9FD1-CBCF68A03E8C}.Debug|Win32.Build.0 = Debug|Win32
+		{81134FFA-A141-44D8-9FD1-CBCF68A03E8C}.Release|Win32.ActiveCfg = Release|Win32
+		{81134FFA-A141-44D8-9FD1-CBCF68A03E8C}.Release|Win32.Build.0 = Release|Win32
+		{5244A908-825F-4001-9CF0-B4384E848D8D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5244A908-825F-4001-9CF0-B4384E848D8D}.Debug|Win32.Build.0 = Debug|Win32
+		{5244A908-825F-4001-9CF0-B4384E848D8D}.Release|Win32.ActiveCfg = Release|Win32
+		{5244A908-825F-4001-9CF0-B4384E848D8D}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
