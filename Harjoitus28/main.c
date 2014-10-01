@@ -1,9 +1,11 @@
 #include <stdio.h>
 #include <string.h>
 
+#define SANOJA 4
+
 int main()
 {
-	char sanakirja[4][2][10] = {
+	char sanakirja[SANOJA][2][10] = {
 			{ "horse", "hevonen" },
 			{ "dog", "koira" },
 			{ "mouse", "hiiri" },
@@ -17,7 +19,7 @@ int main()
 
 	int loyty = -1;
 
-	for (int i = 0; i < 4; i++)
+	for (int i = 0; i < SANOJA; i++)
 	{
 		if (strcmp(sana, sanakirja[i][0]) == 0) loyty = i;
 	}
