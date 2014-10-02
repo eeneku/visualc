@@ -12,6 +12,8 @@ struct Mobiilipeli
 
 void tulostaTiedot(struct Mobiilipeli peli);
 void vertailePeleja(struct Mobiilipeli peli1, struct Mobiilipeli peli2);
+void tallennaPeli(struct Mobiilipeli peli);
+struct Mobiilipeli luePeli();
 
 int main()
 {
@@ -42,6 +44,12 @@ int main()
 		tulostaTiedot(pelit[i]);
 	}
 
+	tallennaPeli(angrybirds);
+
+	struct Mobiilipeli luettuPeli = luePeli();
+
+	tulostaTiedot(luettuPeli);
+
 	return 0;
 }
 
@@ -58,4 +66,39 @@ void vertailePeleja(struct Mobiilipeli peli1, struct Mobiilipeli peli2)
 	else halvempi = &peli2;
 
 	tulostaTiedot(*halvempi);
+}
+
+void tallennaPeli(struct Mobiilipeli peli)
+{
+	FILE *tiedosto;
+	fopen_s(&tiedosto, "pelit.txt", "w");
+
+	if (tiedosto != 0)
+	{
+		fputs(peli.nimi, tiedosto);
+		fputs("\n", tiedosto);
+		fputs(peli.julkaisija, tiedosto);
+		fputs("\n", tiedosto);
+		fprintf(tiedosto, "%d\n", peli.hinta);
+
+		fclose(tiedosto);
+	}
+}
+
+struct Mobiilipeli luePeli()
+{
+	struct Mobiilipeli luettuPeli;
+	FILE *tiedosto;
+	fopen_s(&tiedosto, "pelit.txt", "r");
+
+	if (tiedosto != 0)
+	{
+		fgets(luettuPeli.nimi, MERKIT, tiedosto);
+		fgets(luettuPeli.julkaisija, MERKIT, tiedosto);
+		fscanf_s(tiedosto, "%d", &luettuPeli.hinta);
+
+		fclose(tiedosto);
+	}
+
+	return luettuPeli;
 }
