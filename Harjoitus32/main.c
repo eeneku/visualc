@@ -4,15 +4,15 @@ int main()
 {
 	int luku1 = 5;
 	int luku2 = 14;
-	int temp = 0;
+	int *p1 = &luku1;
+	int *p2 = &luku2;
 	
-	printf("Luku1: %d ja luku2: %d\n", luku1, luku2);
+	printf("Luku1: %d ja luku2: %d\n", *p1, *p2);
 
-	temp = luku1;
-	luku1 = luku2;
-	luku2 = temp;
+	p1 = &luku2;
+	p2 = &luku1;
 
-	printf("Luku1: %d ja luku2: %d\n", luku1, luku2);
+	printf("Luku1: %d ja luku2: %d\n", *p1, *p2);
 
 	return 0;
 }
