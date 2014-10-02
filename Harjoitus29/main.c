@@ -95,7 +95,7 @@ struct Mobiilipeli luePeli()
 	{
 		fgets(luettuPeli.nimi, MERKIT, tiedosto);
 		fgets(luettuPeli.julkaisija, MERKIT, tiedosto);
-		fscanf_s(tiedosto, "%d", &luettuPeli.hinta);
+		fscanf_s(tiedosto, "%d\n", &luettuPeli.hinta);
 
 		fclose(tiedosto);
 	}
